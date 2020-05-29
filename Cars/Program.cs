@@ -8,6 +8,8 @@ namespace Cars
 {
     class Program
     {
+
+        // Comment to test committing
         static void Main(string[] args)
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<CarDb>());
