@@ -10,6 +10,7 @@ namespace Cars
     {
 
         // Comment to test committing
+        // Another test
         static void Main(string[] args)
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<CarDb>());
